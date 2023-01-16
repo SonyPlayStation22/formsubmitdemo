@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>Send Us a Message</header>
+        <form action="https://formsubmit.co/ocimbaluk@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="New Email">
+           <div class="dbl-field">
+              <div class="field">
+                  <input type="text" placeholder="enter Your Name" name="name" id="name" required>
+              </div>
+
+              <input type="hidden" name="_next" value="https://oksana-tsymbaliuk.com/thankyou.html">
+ 
+              <div class="field">
+                 <input type="text" placeholder="enter Your Email" name="email" id="email"  required>
+             </div>
+ 
+             <div class="field">
+                 <input type="text" placeholder="enter Your Phone Number" name="tel number" id="number"  required>
+             </div>
+           </div>
+           <div class="message">
+              <textarea placeholder="write Your Message" name="messsage" id="message"  required></textarea>
+           </div>
+ 
+           <div class="btn-area">
+              <button type="submit">Send Form</button>
+           </div>
+        </form>
+     </div>
+</body>
+</html>
